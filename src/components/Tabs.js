@@ -15,11 +15,11 @@ const Tabs = ({arr}) => {
       <ul>
         {
             arr.map((obj)=>{
-             return <li onClick={update}>{obj.title + " " +  obj.content}</li>
+             return <li onClick={update}>{obj.titles + " " +  obj.contents}</li>
             })
         }
       </ul>
-
+        
       <p>This is the content for {currtab}</p>
       </>
     )

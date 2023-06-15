@@ -3,10 +3,11 @@ import React from "react";
 import './../styles/App.css';
 import Tabs from "./Tabs.js";
 
+let arr = [ { titles: "Tab", contents :"1" }, { titles: "Tab", contents:"2" },{ titles: "Tab", contents :"3" }];
+
 const App = () => {
 
-  let arr = [ { title: "Tab", content :"1" }, { title: "Tab", content :"2" },{ title: "Tab", content :"3" }]
-
+  
   return (
     <div>
         <Tabs arr = {arr} ></Tabs>
